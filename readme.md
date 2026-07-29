@@ -42,7 +42,7 @@ The module features a 4-pin header interface designed for easy breadboard or jum
 
 ## Schematic & Hardware Design
 
-![Schematic Diagram](schematic.pdf)
+![Schematic Diagram](Images/schematic.png)
 
 ### Design Choices
 * **Hardwired I2C Mode:** Pin 2 (`CSB`) is connected directly to $V_{DDIO}$ ($+3.3\,\text{V}$), permanently selecting the I2C interface protocol and disabling SPI.
